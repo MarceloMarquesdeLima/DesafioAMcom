@@ -22,4 +22,7 @@ O aplicativo é uma WebAPI desenvolvida em .NET 5 e estamos com problemas para i
 
 ![alt text](image.png)
 
+<img width="1536" height="1024" alt="Copilot_20260513_052547" src="https://github.com/user-attachments/assets/c09af244-1abd-40a5-b036-57afe2df29d6" />
+
+
 
