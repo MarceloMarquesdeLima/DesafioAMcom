@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using DesafioAMcom.Domain;
 
 namespace DesafioAMcom.Application.Interfaces
 {
-    internal interface IUsersService
+    public interface IUsersService
     {
+        Task<IEnumerable<User>> GetUsersAsync(string? name, string? email);
     }
 }

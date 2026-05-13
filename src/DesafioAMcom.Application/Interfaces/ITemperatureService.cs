@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using DesafioAMcom.Domain;
 
 namespace DesafioAMcom.Application.Interfaces
 {
-    internal interface ITemperatureService
+    public interface ITemperatureService
     {
+        double Converter(Temperature temp);
     }
 }

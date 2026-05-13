@@ -1,10 +1,12 @@
-﻿using System;
+﻿using DesafioAMcom.Domain;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace DesafioAMcom.Application.Interfaces
 {
-    internal interface ICountryService
+    public interface ICountryService
     {
+        IEnumerable<Country> GetCountries();
     }
 }

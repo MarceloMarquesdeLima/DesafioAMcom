@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DesafioAMcom.Domain
 {
-    internal class Temperature
+    public class Temperature
     {
     }
 }
