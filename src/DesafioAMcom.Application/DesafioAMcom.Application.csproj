@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DesafioAMcom.Domain\DesafioAMcom.Domain.csproj" />
+    <ProjectReference Include="..\DesafioAMcom.Infrastructure\DesafioAMcom.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

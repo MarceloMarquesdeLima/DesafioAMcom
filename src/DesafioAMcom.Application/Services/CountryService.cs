@@ -1,10 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using DesafioAMcom.Application.Interfaces;
+using DesafioAMcom.Domain;
 
 namespace DesafioAMcom.Application.Services
 {
-    internal class CountryService
+    public class CountryService : ICountryService
     {
+        private readonly JsonCountryRepository _repo;
+        public CountryService(JsonCountryRepository repo) => _repo = repo;
+        public IEnumerable<Country> GetCountries() => _repo.LoadCountries();
     }
 }

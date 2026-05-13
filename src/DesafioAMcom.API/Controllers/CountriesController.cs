@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using DesafioAMcom.Application.Interfaces;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DesafioAMcom.API.Controllers
@@ -7,5 +8,10 @@ namespace DesafioAMcom.API.Controllers
     [ApiController]
     public class CountriesController : ControllerBase
     {
+        private readonly ICountryService _service;
+        public CountriesController(ICountryService service) => _service = service;
+
+        [HttpGet]
+        public IActionResult Get() => Ok(_service.GetCountries());
     }
 }
