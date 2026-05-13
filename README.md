@@ -25,13 +25,13 @@ O aplicativo é uma WebAPI desenvolvida em .NET 5 e estamos com problemas para i
 <img width="1536" height="1024" alt="Copilot_20260513_052547" src="https://github.com/user-attachments/assets/c09af244-1abd-40a5-b036-57afe2df29d6" />
 
 🔹 Fluxo de execução detalhado:
-1️⃣ Cliente (Front-End / Mobile) → envia requisição HTTP.
-2️⃣ Camada de Apresentação (WebApi) → o Controller recebe a requisição, valida e encaminha para o Service.
-3️⃣ Camada de Aplicação (Application) → o Service processa a lógica de negócio, consulta o domínio e, se necessário, acessa infraestrutura (cache, API externa, JSON).
-4️⃣ Camada de Domínio (Domain) → contém as entidades e regras fundamentais (ex: Temperature, Country, User).
-5️⃣ Camada de Infraestrutura (Infrastructure) → executa operações técnicas (cache, leitura de arquivo, requisições HTTP com Polly).
-6️⃣ Camada de Testes e Deploy → valida os serviços e publica via Docker.
-7️⃣ Resposta → retorna ao cliente via Controller.
+1) Cliente (Front-End / Mobile) → envia requisição HTTP.
+2) Camada de Apresentação (WebApi) → o Controller recebe a requisição, valida e encaminha para o Service.
+3) Camada de Aplicação (Application) → o Service processa a lógica de negócio, consulta o domínio e, se necessário, acessa infraestrutura (cache, API externa, JSON).
+4) Camada de Domínio (Domain) → contém as entidades e regras fundamentais (ex: Temperature, Country, User).
+5) Camada de Infraestrutura (Infrastructure) → executa operações técnicas (cache, leitura de arquivo, requisições HTTP com Polly).
+6) Camada de Testes e Deploy → valida os serviços e publica via Docker.
+7) Resposta → retorna ao cliente via Controller.
 
 
 
