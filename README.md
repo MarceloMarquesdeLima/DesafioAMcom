@@ -22,41 +22,4 @@ O aplicativo é uma WebAPI desenvolvida em .NET 5 e estamos com problemas para i
 
 ![alt text](image.png)
 
-📂 AMcom.WebApi
- ┣ 📂 Controllers
- ┃ ┣ CountriesController.cs
- ┃ ┣ TemperaturesController.cs
- ┃ ┗ UsersController.cs
- ┣ Program.cs
- ┗ appsettings.json
 
-📂 AMcom.Application
- ┣ 📂 Interfaces
- ┃ ┣ ICountryService.cs
- ┃ ┣ ITemperatureService.cs
- ┃ ┗ IUserService.cs
- ┣ 📂 Services
- ┃ ┣ CountryService.cs
- ┃ ┣ TemperatureService.cs
- ┃ ┗ UserService.cs
-
-📂 AMcom.Domain
- ┣ Country.cs
- ┣ Temperature.cs
- ┗ User.cs
-
-📂 AMcom.Infrastructure
- ┣ 📂 Cache
- ┃ ┗ MemoryCacheService.cs
- ┣ 📂 Http
- ┃ ┗ HttpClientFactory.cs
- ┣ 📂 Data
- ┃ ┗ JsonReader.cs
-
-📂 AMcom.Tests
- ┣ CountryServiceTests.cs
- ┣ TemperatureServiceTests.cs
- ┗ UserServiceTests.cs
-
-📂 AMcom.Docker
- ┗ Dockerfile
