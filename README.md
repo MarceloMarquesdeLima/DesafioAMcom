@@ -9,7 +9,7 @@ Durante esse Desafio, através do teste técnico você será avaliado nos seguin
 - Refatoração de código;
 
 Para atender o nosso cliente precisamos resolver alguns problemas e desenvolver novas funcionalidades na aplicação atual.
-O aplicativo é uma WebAPI desenvolvida em .NET 5 e estamos com problemas para identificar falhas na API e ao salvar as temperaturas erros estão acontecendo.
+O aplicativo é uma WebAPI desenvolvida em .NET 10 e estamos com problemas para identificar falhas na API e ao salvar as temperaturas erros estão acontecendo.
 
 1)	Retornar a lista de países como origem o arquivo ‘países.json’ e disponibilizar as informações em um endpoint.
 2)	Verificar o Controller de Temperaturas e verificar itens para serem melhorados e consertados.
