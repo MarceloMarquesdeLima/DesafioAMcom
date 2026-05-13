@@ -1,1 +1,12 @@
-<Solution />
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/DesafioAMcom.API/DesafioAMcom.API.csproj" Id="c8c45ca1-3154-404d-81fb-f7d1b174a174" />
+    <Project Path="src/DesafioAMcom.Application/DesafioAMcom.Application.csproj" Id="1b434ca0-1ba9-4cc6-b79d-ca585eb34c75" />
+    <Project Path="src/DesafioAMcom.Domain/DesafioAMcom.Domain.csproj" Id="d9b2bf06-60e5-4d47-b31c-f6a15ea3ee54" />
+    <Project Path="src/DesafioAMcom.Infrastructure/DesafioAMcom.Infrastructure.csproj" Id="c76c8a62-5f60-48cd-bbb2-89508285aadb" />
+    <Project Path="src/DesafioAMcom.Tests/DesafioAMcom.Tests.csproj" Id="c6db6be8-d0cf-4407-b4fe-1145afb09d90" />
+  </Folder>
+  <Folder Name="/src/DesafioAMcom.Docker/">
+    <File Path="src/DesafioAMcom.Docker/Dockerfile" />
+  </Folder>
+</Solution>

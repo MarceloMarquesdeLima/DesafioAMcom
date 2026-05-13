@@ -1,0 +1,6 @@
+@DesafioAMcom.API_HostAddress = http://localhost:5110
+
+GET {{DesafioAMcom.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
